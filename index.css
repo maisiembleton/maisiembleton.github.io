@@ -1,0 +1,330 @@
+@font-face {
+  font-family: bigjohn;
+  src: url(bigjohn.otf);
+
+}
+@font-face {
+  font-family: agane;
+  src: url(/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/agane/Agane45light.ttf);
+}
+/* @font-face {
+  font-family: raleway;
+  src: url(/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/Raleway-master/RalewayThin.otf);
+} */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+  font-family: leafy;
+  src: url(/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/leafy/leafy.otf);
+}
+
+
+
+}
+
+/** plug */
+
+
+.plug h6 {
+  font-family: agane;
+  font-size: 1.5em;
+
+}
+.plug a {
+  color: #ffd400;
+  text-decoration: none;
+ border-bottom: 3px solid #000103;
+
+}
+.plug a:hover {
+  background-color: #ffd400;
+  padding:0.2em;
+  border-bottom: 0px solid #ffffff;
+  border-radius: 0.1em;
+  text-decoration:none;
+  color:#93c6d6;
+}
+.plug {
+  padding:1em;
+  display:inline-block;
+
+}
+
+.accent {
+  color:#343c4c;
+}
+#maisiembleton {
+  color:#93c6d6;
+  float:right;
+  font-family: Raleway;
+  margin-right:2em;
+  margin-top:1em;
+  font-size:1.5em;
+  letter-spacing: 0.10em;
+
+  ]
+
+}
+/** hamburger menu */
+.hamburgerContainer {
+    display: inline-block;
+    position:fixed;
+
+    cursor: pointer;
+
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/** landing page content */
+.landingContainer {
+  width: 100%;
+  height: 55em;
+  padding-top: 10%;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+  background-color: #ffd400;
+  margin-top:-4em;
+
+
+}
+.landingContainer h1 {
+  font-size: 6em;
+  font-family: bigjohn, serif;
+
+}
+/** make the about me be in line and on either side of my pic **/
+.landingContainer h2 {
+  font-size: 2em;
+  font-family: bigjohn, serif;
+  vertical-align: bottom;
+  margin-bottom:-100em;
+  float:left;
+
+}
+.landingContainer h3 {
+  font-family: Raleway;
+  font-size: 1.5em;
+  font-style: thin;
+  color: #000103;
+  width:70%;
+}
+
+
+
+.dp {
+  height:13em;
+  width: 13em;
+  border-radius:7em;
+  border: 0.5em solid #e6eaef;
+  margin:auto;
+  margin-top:-7em;
+  position: static;
+
+}
+/** about page content */
+
+.aboutContainer {
+  width: 100%;
+  height: 70em;
+
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+  background-color: #93c6d6;
+  margin-top:-7em;
+  padding-top:2em;
+
+
+}
+.about {
+  font-size: 5em;
+  font-family: bigjohn, serif;
+  color: #000103;
+  margin-left:2em;
+  margin-top:-1.5em;
+  float:left;
+}
+
+.me {
+  font-size: 5em;
+  font-family: bigjohn, serif;
+
+  float:right;
+  margin-right:4em;
+  margin-top: -1.5em;
+  color: #e6eaef;
+}
+
+
+
+.aboutContainer p {
+  font-family:Raleway;
+  font-size:1.5em;
+  width: 70%;
+  margin-top:5em;
+
+}
+.me_accent {
+  color:#ffd400;
+
+}
+/** projects page content */
+.projectsContainer {
+  display:inline-block;;
+  height: 70em;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+  margin:auto;
+  background-color: #e6eaef;
+  padding: 2em;
+
+}
+  .projectsContainer h1 {
+  font-size: 6em;
+  font-family: bigjohn, serif;
+  color: #000103;
+
+  text-align: center;
+
+
+
+}
+
+
+
+.proj_container {
+  width: 20em;
+  height: 27em;
+  background-color: #e6eaef;
+  float: left;
+  padding: 1em;
+  margin: 3em;
+  border-radius: 0.5em;
+}
+
+.proj_container h2 {
+  color: #ffd400;
+  font-family:agane;
+  position:relative;
+  margin-top:-1.75em;
+  font-size:3em;
+
+}
+
+.proj_container img {
+
+  width:20em;
+  box-shadow: 2px 1px 5px grey;
+
+}
+
+.proj_container p {
+  font-family: agane;
+  line-height: 120%;
+  color: #343c4c;
+}
+
+
+.proj_container a:hover {
+
+
+}
+
+/** experience section */
+
+
+.experienceContainer {
+  width: 100%;
+  height: 70em;
+  display:inline-block;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+  background-color: #93c6d6;
+  margin-top:-7em;
+  padding-top:2em;
+
+
+}
+
+.experienceContainer h2 {
+  font-size: 5em;
+  font-family: bigjohn, serif;
+  color: #000103;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
+
+
+.aboutContainer p {
+  font-family:Ralway;
+  font-size:1.5em;
+  width: 70%;
+  margin-top:5em;
+
+}
+
+/** contact section */
+/** projects page content */
+.contactContainer {
+  display:inline-block;;
+  height: 70em;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+  width:100%;
+  background-color: #424344;
+
+
+}
+  .contactContainer h1 {
+  font-size: 6em;
+  font-family: bigjohn, serif;
+  color: #e6eaef;
+
+  text-align: center;
+
+
+
+}
+
+
+.footer {
+  width:100%;
+  background-color: #ffd400;
+  margin-top: -1em;
+  text-align:center;
+
+  height: 5em;
+}
+.footer p {
+  font-family: Raleway;
+  padding:2em;
+  font-size:1.1em;
+  color: ##000103;
+}
+
+
+body {
+  background-color: #ffffff;
+
+}
