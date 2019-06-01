@@ -1,0 +1,84 @@
+@font-face {
+  font-family: bigjohn;
+  src: url(bigjohn.otf);
+
+}
+@font-face {
+  font-family: agane;
+  src: url(/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/agane/Agane45light.ttf);
+}
+@font-face {
+  font-family: raleway;
+  src: url(/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/Raleway-master/RalewayThin.otf);
+}
+
+/** hamburger menu */
+.hamburgerContainer {
+    display: inline-block;
+    positon: static;
+
+    cursor: pointer;
+
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/** main content */
+.navContainer {
+  width: 70%;
+  height: 30%;
+  padding-top: 10%;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
+
+
+}
+.navContainer .nav_items {
+  font-size: 2em;
+  font-family: bigjohn, serif;
+  color: #000103;
+
+}
+
+.nav_items a {
+  text-decoration: none;
+  color: #000103;
+}
+.nav_items a:hover {
+  text-decoration: none;
+  color: #e6eaef;
+  border-bottom: 6px solid #ffd400;
+}
+
+#navmenu {
+  background-color: #bdd4e7;
+  height:100%;
+  width:100%;
+}
+
+
+
+
+body {
+  background-color: #bdd4e7;
+}

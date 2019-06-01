@@ -1,102 +1,95 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>maisiembleton</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="delaunay.js"></script>
+    <script src="index.js"></script>
   </head>
 
+  <title></title>
 
   <body>
-
-
-    <div class="hamburgerContainer" onmouseenter="myFunction(this)">
-      <a href="navigation.html">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-      </a>
+    <div class="navigation">
+      <div class="logo">
+        <img src="images/maisiembleton-full-logo.png" />
+      </div>
+      <ul class="navigation-links">
+        <li><a>ASHLEY</a></li>
+        <li><a>LAVANYA</a></li>
+        <li><a>MAISIE</a></li>
+      </ul>
     </div>
-    <p id="maisiembleton"><strong><span class="accent">m</span>aisi<span class="accent">e</span>mbleton</p></strong>
 
-
-
-    <center>
-      <div class="landingContainer"><a name="landing"></a>
-        <h1>Hello, I'm Maisie!</h1>
-        <h3>Currently studying Computer Science, Information Systems and Psychology with dreams of travelling the world, creating change and doing web development.</h3>
-
-
-
+    <div class="animation" id="animation"></div>
+    <div class="landing">
+      <div class="landing--content">
+        <h1>
+          The Most Wonderful Amazing Base Template for a Portfolio Website Ever
+        </h1>
+        <h5>Created by Lavanya, Maisie and Ashley</h5>
       </div>
-          <a name="about"></a><img src="/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/squareme.png" class="dp"/>
+    </div>
+    <div class="description"></div>
 
-      <div class="aboutContainer" id="about">
-
-
-        <h2 class="about">ABOUT</h2><h2 class="me">ME</h2>
-
-
-        <p>Currently studying <strong>Computer Science, Information Systems</strong> and <strong>Psychology</strong> with dreams of <strong>travelling</strong> the word, creating change and doing web development. <br><br>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of <strong>human happiness</strong>. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue <strong>pleasure</strong> rationally encounter consequences that are extremely painful.<br><br>But I must explain to you how all this mistaken idea of denouncing pleasure and <strong>praising</strong> pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.But I must explain to you how all this <strong>mistaken</strong> idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of <strong>human happiness</strong>. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-
-        <div class="plug">
-        <h6>If you want to know more about me, feel free to check out my <a href="/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/CV.pdf">CV!</a></h6>
+    <!--THE SLIDESHOW CONTAINER  ref:https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
+    <div class="slideshow">
+      <!--THE FULL-SIZED IMAGES-->
+      <div class="image-slide fade" style="display:block">
+        <div class="numbertext">1</div>
+        <img class="image" src="images/IMG_8536.jpg" />
+        <div class="text"></div>
       </div>
 
+      <div class="image-slide fade">
+        <div class="numbertext">2</div>
+        <img class="image" src="images/IMG_8545.jpg" />
+        <div class="text">Day 1 Briefing</div>
       </div>
 
-      <div class="projectsContainer">
-        <h1><a name="projects">PROJECTS</a></h1>
-
-          <div class="proj_container">
-            <h2>Pando</h2>
-            <a href="https://github.com/maisiembleton/pando"><img src="/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/images/pando.png"/></a>
-            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </p>
-          </div>
-          <div class="proj_container">
-            <h2>Pando</h2>
-            <img src="/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/images/pando.png"/>
-            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-          </div>
-          <div class="proj_container">
-            <h2>Pando</h2>
-            <img src="/Users/Aztec_Corn/PROJECTS/meweb/portfolioweb/images/pando.png"/>
-            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</p>
-          </div>
-
-        <div class="plug">
-          <h6>If you want to see more projects I've worked on, feel free to check out my <a href="https://github.com/maisiembleton">github!</a></h6>
-
-      </div>
+      <div class="image-slide fade">
+        <div class="numbertext">3</div>
+        <img class="image" src="images/IMG_8577.jpg" />
+        <div class="text">Day 1</div>
       </div>
 
-
-      <div class="experienceContainer">
-
-
-        <h2><a name="experience">EXPERIENCE</a></h2>
-
-        <div class="plug">
-        <h6>If you want to know more about where I've worked, feel free to check out my <a href="https://www.linkedin.com/in/maisie-embleton-407057125/">Linked In</a></h6>
+      <div class="image-slide fade">
+        <div class="numbertext">4</div>
+        <img class="image" src="images/IMG_8590.jpg" />
+        <div class="text">Caption Text</div>
       </div>
 
-      </div>
-      <!--  contact section -->
-      <div class="contactContainer">
-        <h1><a name="contact">CONTACT</a></h1>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
 
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
 
-
-
-      </div>
-      <div class="footer"><p>Made by Maisie Embleton</p></div>
-
-    </center>
-    <script>
-    function myFunction(x) {
-        x.classList.toggle("change");
-    }
-    </script>
-
+    <div class="footer">
+      <ul class="links">
+        <li>
+          <a href="https://www.linkedin.com/in/ashley-raine-legaspi-60736515b/"
+            >Ashley Legaspi</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/lavanya-sajwan-194667170/"
+            >Lavanya Sajwan</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/maisiembleton/"
+            >Maisie Embleton</a
+          >
+        </li>
+      </ul>
+    </div>
   </body>
-
 </html>
