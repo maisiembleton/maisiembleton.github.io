@@ -52,7 +52,6 @@ a {
   padding: 10px 20px;
   display: block;
   margin: 0 20px;
-  color: #1b2845;
 }
 
 .navigation-links a:hover {
@@ -65,20 +64,16 @@ a {
 
 /* LANDING */
 
-.animation #animation {
-  position: relative;
-  z-index: -1;
-}
-
 .landing {
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: -100vh;
+  background-color: #9ac9e6;
+
   color: white;
   position: relative;
   z-index: 1;
@@ -88,7 +83,6 @@ a {
 .landing--content {
   margin: 0;
   padding: 0;
-  max-width: 650px;
   text-align: center;
 }
 
@@ -98,10 +92,44 @@ a {
   text-shadow: 0 0 6px #ffffff;
 }
 
+.landing--content h3 {
+  font-family: "Scope One", serif;
+  color: #1b2845;
+  text-shadow: 0 0 2px #ffffff;
+}
+
 .landing--content h5 {
   font-family: "Scope One", serif;
   color: #1b2845;
   text-shadow: 0 0 2px #ffffff;
+  margin: 0;
+}
+
+.landing--content .experience-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.landing--content .experience-items .experience-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landing--content .experience-items .experience-single h3 {
+  max-width: 300px;
+}
+
+.landing--content .experience-items .project-image {
+  height: 200px;
+  margin: 40px 10px;
+}
+
+.landing--content .experience-items .project-image:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /* DESCRIPTION */
