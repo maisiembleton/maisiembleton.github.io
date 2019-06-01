@@ -52,6 +52,8 @@ a {
   padding: 10px 20px;
   display: block;
   margin: 0 20px;
+  color: #1b2845;
+  text-decoration: none;
 }
 
 .navigation-links a:hover {
