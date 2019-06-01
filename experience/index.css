@@ -126,7 +126,7 @@ a {
 
 .landing--content .experience-items .project-image {
   height: 200px;
-  margin: 40px 10px;
+  margin: 0px 10px 40px 10px;
   transition-property: filter;
   transition-duration: 1s;
 }
