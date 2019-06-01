@@ -127,10 +127,13 @@ a {
 .landing--content .experience-items .project-image {
   height: 200px;
   margin: 40px 10px;
+  transition-property: filter;
+  transition-duration: 1s;
 }
 
 .landing--content .experience-items .project-image:hover {
-  opacity: 0.8;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   cursor: pointer;
 }
 
