@@ -1,0 +1,15 @@
+.buttongroup {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &-item {
+    margin: 0px 10px;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    max-width: 75vw;
+  }
+}

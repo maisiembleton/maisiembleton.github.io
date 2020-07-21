@@ -1,0 +1,24 @@
+.menulist {
+  width: 15em;
+
+  ul {
+    padding-left: 0;
+  }
+
+  &-item {
+    width: 100%;
+  }
+
+  li {
+    padding: 15px;
+    margin-left: 20px;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
