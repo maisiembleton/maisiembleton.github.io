@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12011d4e.chunk.css",
+    "main.js": "/static/js/main.15bb16a1.chunk.js",
+    "main.js.map": "/static/js/main.15bb16a1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8726a483.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8726a483.js.map",
+    "static/js/2.8c4edc02.chunk.js": "/static/js/2.8c4edc02.chunk.js",
+    "static/js/2.8c4edc02.chunk.js.map": "/static/js/2.8c4edc02.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c3af33d08b08085d40ece787fe6c778c.js": "/precache-manifest.c3af33d08b08085d40ece787fe6c778c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.12011d4e.chunk.css.map": "/static/css/main.12011d4e.chunk.css.map",
+    "static/js/2.8c4edc02.chunk.js.LICENSE.txt": "/static/js/2.8c4edc02.chunk.js.LICENSE.txt",
+    "static/media/ME-LOGO.png": "/static/media/ME-LOGO.58b0596e.png",
+    "static/media/TPF.png": "/static/media/TPF.9cffb8d6.png",
+    "static/media/blu.png": "/static/media/blu.027b5ece.png",
+    "static/media/coffeedoc.png": "/static/media/coffeedoc.28fb854a.png",
+    "static/media/future-you.jpg": "/static/media/future-you.b290da8e.jpg",
+    "static/media/pando.png": "/static/media/pando.23ea6665.png",
+    "static/media/vuwwit.png": "/static/media/vuwwit.a9e2b061.png",
+    "static/media/wub.png": "/static/media/wub.f62c31d1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8726a483.js",
+    "static/js/2.8c4edc02.chunk.js",
+    "static/css/main.12011d4e.chunk.css",
+    "static/js/main.15bb16a1.chunk.js"
+  ]
+}
