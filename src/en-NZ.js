@@ -5,13 +5,16 @@ import { withStyles } from "@material-ui/core/styles";
 const ResumeButtonLink = withStyles({
   root: {
     border: "2px solid #fdd835",
-    background: "#fdd835",
+    fontWeight: "600",
     color: "#262626",
     height: 30,
     padding: "0 5px",
     fontFamily: "Montserrat, sans-serif",
-    fontSize: "16px",
+    fontSize: "15px",
     textTransform: "lowercase",
+    "&:hover": {
+      background: "#fdd835",
+    },
   },
 })(Button);
 
@@ -33,7 +36,14 @@ export default {
         </center>
       </>
     ),
-    // TODO put cv in
+
+    ilove: (
+      <>
+        <strong>I love being part of teams striving to do great things!</strong>
+      </>
+    ),
+    thisHas:
+      "This has previously lead me to be involved with Victoria University of Wellington Women in Tech, Chiasma Wellington, Amnesty International - Victoria University of Wellington’s branch and Victoria University of Wellington Student Association (VUWSA) as a Class Representative.",
     check: (
       <>
         Check out my{" "}

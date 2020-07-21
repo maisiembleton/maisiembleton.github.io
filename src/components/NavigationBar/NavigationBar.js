@@ -11,8 +11,8 @@ const StyledButtonLink = withStyles({
     borderRadius: 50,
     border: "2px solid #fdd835",
     color: "#fff",
-    height: 48,
-    padding: "0 30px",
+    height: 40,
+    padding: "0 20px",
     fontFamily: "Montserrat, sans-serif",
     fontSize: "18px",
     "&:hover": {

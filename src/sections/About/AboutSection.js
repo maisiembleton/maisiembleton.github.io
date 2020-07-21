@@ -8,7 +8,8 @@ import SkillsGraph from "../../components/SkillsGraph/SkillsGraph";
 const content = [strings.about.self, strings.about.iam, strings.about.recent];
 
 const bottomContent = [
-  "Something about volunteer work Something about volunteer work Something about volunteer work Something about volunteer work Something about volunteer work Something about volunteer work",
+  strings.about.ilove,
+  strings.about.thisHas,
   strings.about.check,
 ];
 
