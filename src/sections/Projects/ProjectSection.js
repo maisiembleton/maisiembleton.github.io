@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles.scss";
 import ContentBlock from "../../components/ContentBlock/ContentBlock";
-import strings from "../../en-NZ";
 import cn from "classnames";
 import ImageGroup from "../../components/ImageGroup/ImageGroup";
 import pando from "../../images/work/pando.png";

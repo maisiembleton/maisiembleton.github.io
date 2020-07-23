@@ -6,8 +6,6 @@ import yellow from "@material-ui/core/colors/yellow";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
 const Hamburger = (props) => {
-  const anchor = "hamburger";
-
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleDrawer = () => (event) => {

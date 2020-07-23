@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.scss";
-import Socials from "../../components/Socials/Socials";
 import { Button } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 

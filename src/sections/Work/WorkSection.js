@@ -8,12 +8,12 @@ import cn from "classnames";
 import ImageGroup from "../../components/ImageGroup/ImageGroup";
 import futureYou from "../../images/work/future-you.jpg";
 
-const buttonNames = [
-  { name: "All", id: "all" },
-  { name: "Design", id: "design" },
-  { name: "Development", id: "development" },
-  { name: "Projects", id: "projects" },
-];
+// const buttonNames = [
+//   { name: "All", id: "all" },
+//   { name: "Design", id: "design" },
+//   { name: "Development", id: "development" },
+//   { name: "Projects", id: "projects" },
+// ];
 
 const workImages = [
   {

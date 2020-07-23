@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.scss";
-import logo from "../../images/ME-LOGO.png";
 import Hamburger from "../Hamburger/Hamburger";
 
 import { Button } from "@material-ui/core";
