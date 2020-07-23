@@ -2,10 +2,10 @@ import React from "react";
 import "./styles.scss";
 
 const menuItems = [
-  { name: "About", link: "*/#about" },
-  { name: "Work", link: "*/#work" },
-  { name: "Projects", link: "*/#projects" },
-  { name: "Contact", link: "*/#contact" },
+  { name: "About", link: "#about" },
+  { name: "Work", link: "#work" },
+  { name: "Projects", link: "#projects" },
+  { name: "Contact", link: "#contact" },
 ];
 
 const MenuList = (props) => {

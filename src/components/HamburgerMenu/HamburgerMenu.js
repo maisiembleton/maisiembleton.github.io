@@ -8,7 +8,7 @@ const HamburgerMenu = (props) => {
     <div className="hamburgermenu">
       <div>
         <div className="hamburgermenu-title">
-          <a href="*/#top">
+          <a href="#top">
             <p>MAISIEMBLETON</p>
           </a>
         </div>
