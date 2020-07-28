@@ -10,7 +10,7 @@ const LandingSection = () => {
         <ContentBlock
           id="landing"
           title="Hello, I'm Maisie!"
-          subtitle="I help students and not-for-profit organisations create beautiful, functional and accessible websites. "
+          subtitle="I help students and small businesses create beautiful, functional and accessible websites. "
         />
         <Socials />
       </div>
