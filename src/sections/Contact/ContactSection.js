@@ -5,10 +5,9 @@ import { withStyles } from "@material-ui/core/styles";
 
 const StyledButtonLink = withStyles({
   root: {
-    background: "#fdd835",
-
     borderRadius: 50,
-    border: "2px solid #fdd835",
+    background: "#fdd835",
+    border: "3px solid #fdd835",
     color: "#262626",
     height: 48,
     padding: "0 30px",
@@ -17,14 +16,20 @@ const StyledButtonLink = withStyles({
     fontWeight: "600",
     maxWidth: "20em",
     marginTop: "2em",
+    transition: "box-shadow 0.3s ease-in-out, border 0.3s ease-in-out",
 
     "@media (min-width: 768px)": {
       fontSize: "18px",
     },
-    "&:hover": {
+    "&:hover, &:focus, &:focus-within": {
       color: "#262626",
-      background: "#ffffff",
+      background: "#fdd835",
       fontWeight: "600",
+      opacity: "1",
+      webkitBoxShadow: "0px 2px 52px -15px rgba(0, 0, 0, 0.75)",
+      mozBoxShadow: "0px 2px 52px -15px rgba(0, 0, 0, 0.75)",
+      boxShadow: "0px 2px 52px -15px rgba(0, 0, 0, 0.75)",
+      border: "2px solid #fff",
     },
   },
 })(Button);

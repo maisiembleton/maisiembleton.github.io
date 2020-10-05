@@ -12,11 +12,11 @@ const StyledButton = withStyles({
     color: "#fff",
     fontFamily: "Montserrat, sans-serif",
     opacity: "0.9",
-    "&:hover": {
+    "&:hover, &:focus, &:focus-within": {
       border: "2px solid #17bebb",
       background: "#17bebb",
       opacity: "1",
-      color: "#fff",
+      color: "#000",
       fontWeight: "600",
     },
   },

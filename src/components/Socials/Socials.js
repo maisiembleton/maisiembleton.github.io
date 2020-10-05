@@ -1,12 +1,10 @@
 import React from "react";
-import "./styles.scss";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import DescriptionRoundedIcon from "@material-ui/icons/DescriptionRounded";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
-//TODO
+import { Wrapper, SocialBlock, Label } from "./Socials.jsx";
 
-// replace with icons and real links
 const socials = [
   {
     name: "Resume",
@@ -26,21 +24,26 @@ const socials = [
   },
 ];
 
-const Socials = () => {
+const Socials = (props) => {
   return (
-    <div className="socials">
+    <Wrapper>
       {socials.map(({ name, link, icon }, i) => (
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="socials-item"
-          key={i}
-        >
-          {icon}
-        </a>
+        <>
+          <SocialBlock tabIndex={0}>
+            <div
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="socials-item"
+              key={i}
+            >
+              {icon}
+            </div>
+            <Label isLightBackground={props.isLightBackground}>{name}</Label>
+          </SocialBlock>
+        </>
       ))}
-    </div>
+    </Wrapper>
   );
 };
 

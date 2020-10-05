@@ -15,7 +15,7 @@ const HamburgerMenu = (props) => {
         <MenuList />
       </div>
       <div className="hamburgermenu-socials">
-        <Socials />
+        <Socials isLightBackground />
       </div>
       {/* put in cta button - let's talk -- maybe at the bottom */}
     </div>

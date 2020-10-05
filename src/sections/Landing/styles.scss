@@ -3,8 +3,12 @@
   width: 100vw;
   min-height: 100vh;
   background: #17bebb;
+  padding: 8rem 0;
   justify-content: center;
   color: #262626;
+  @media (min-width: 768px) {
+    padding: 2rem 0;
+  }
 
   &-container {
     margin-left: 15px;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.scss";
+import { StyledLink } from "./MenuList.jsx";
 
 const menuItems = [
   { name: "About", link: "#about" },
@@ -14,9 +15,9 @@ const MenuList = (props) => {
       <ul>
         {menuItems.map(({ name, link }, i) => (
           <div className="menulist-item">
-            <a href={link}>
-              <li key={i}>{name}</li>
-            </a>
+            <li key={i}>
+              <StyledLink href={link}>{name}</StyledLink>
+            </li>
           </div>
         ))}
       </ul>

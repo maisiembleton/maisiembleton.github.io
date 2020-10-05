@@ -40,6 +40,12 @@
 .container:hover .overlay {
   opacity: 1;
 }
+.container:focus .overlay {
+  opacity: 1;
+}
+.container:focus-within .overlay {
+  opacity: 1;
+}
 
 .text {
   color: white;

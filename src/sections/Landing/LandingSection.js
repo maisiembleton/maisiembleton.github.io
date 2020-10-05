@@ -10,9 +10,11 @@ const LandingSection = () => {
         <ContentBlock
           id="landing"
           title="Hello, I'm Maisie!"
-          subtitle="I help students and small businesses create beautiful, functional and accessible websites. "
+          subtitle={[
+            "I am a Front End Developer passionate about designing and creating beautiful and functional user experiences. Currently embarking on a journey into becoming an a11y expert!",
+          ]}
         />
-        <Socials />
+        <Socials isLightBackground />
       </div>
     </div>
   );

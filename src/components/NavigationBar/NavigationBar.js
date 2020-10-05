@@ -5,6 +5,14 @@ import Hamburger from "../Hamburger/Hamburger";
 import { Button } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 
+import {
+  StyledNavigationBar,
+  StyledLogo,
+  YellowAccent,
+  NavigationWrapper,
+  NavigationLink,
+} from "./NavigationBar.jsx";
+
 const StyledButtonLink = withStyles({
   root: {
     borderRadius: 50,
@@ -25,17 +33,17 @@ const StyledButtonLink = withStyles({
 const NavigationBar = () => {
   return (
     <header>
-      <div className="nav">
+      <StyledNavigationBar>
         <div>
-          <a href="#top">
-            <span className="yellow">M</span>AISI
-            <span className="yellow">E</span>MBLETON
-          </a>
+          <StyledLogo href="#top">
+            <YellowAccent>M</YellowAccent>AISI
+            <YellowAccent>E</YellowAccent>MBLETON
+          </StyledLogo>
         </div>
-        <div className="nav-links">
-          <a href="#about">ABOUT</a>
-          <a href="#work">WORK</a>
-          <a href="#projects">PROJECTS</a>
+        <NavigationWrapper>
+          <NavigationLink href="#about">ABOUT</NavigationLink>
+          <NavigationLink href="#work">WORK</NavigationLink>
+          <NavigationLink href="#projects">PROJECTS</NavigationLink>
 
           <StyledButtonLink
             variant="outlined"
@@ -47,11 +55,11 @@ const NavigationBar = () => {
             SAY HI
           </StyledButtonLink>
           {/* <ButtonLink name="Say Hi!" link="mailto:maisiembleton@gmail.com" /> */}
-        </div>
+        </NavigationWrapper>
         <div className="nav-hamburger">
           <Hamburger />
         </div>
-      </div>
+      </StyledNavigationBar>
     </header>
   );
 };

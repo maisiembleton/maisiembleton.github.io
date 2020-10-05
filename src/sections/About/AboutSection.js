@@ -1,28 +1,21 @@
 import React from "react";
-import "./styles.scss";
-import strings from "../../en-NZ";
+import strings from "./en-NZ";
 import ContentBlock from "../../components/ContentBlock/ContentBlock";
 import SkillsGraph from "../../components/SkillsGraph/SkillsGraph";
 
-const content = [strings.about.self, strings.about.iam, strings.about.recent];
+import { Wrapper } from "./AboutSection.jsx";
 
-const bottomContent = [
-  strings.about.ilove,
-  strings.about.thisHas,
-  strings.about.check,
-];
+const content = [strings.self, strings.iam, strings.recent];
+
+const bottomContent = [strings.ilove, strings.thisHas, strings.check];
 
 const AboutSection = () => {
   return (
-    <div className="about" id="about">
-      <ContentBlock
-        id="about-content"
-        title={strings.about.title}
-        content={content}
-      />
+    <Wrapper id="about">
+      <ContentBlock id="about-content" title="About" content={content} />
       <SkillsGraph />
       <ContentBlock content={bottomContent} />
-    </div>
+    </Wrapper>
   );
 };
 
