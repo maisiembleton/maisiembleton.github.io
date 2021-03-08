@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { Button } from "@material-ui/core";
-import { withStyles } from "@material-ui/core/styles";
 
 export const Wrapper = styled.div`
   background: #e2eef3;
