@@ -29,7 +29,7 @@ export default {
     <>
       Check out my{" "}
       <StyledLink
-        href="https://drive.google.com/file/d/1gNAEIvoDQxFlxJ8c7akVdgkvcbNlo_me/view?usp=sharing"
+        href="https://drive.google.com/file/d/1lzW-0AY6Z00bF2EMUWDno65QADqqzby8/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >

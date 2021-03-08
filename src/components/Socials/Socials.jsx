@@ -7,17 +7,19 @@ export const Wrapper = styled.div`
 
 export const SocialBlock = styled.a`
   display: flex;
+  align-items: center;
   flex-direction: column;
   margin: 0.5rem;
-  border-bottom: 1px solid #fdd835;
   color: #fdd835;
   transition: color 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
+  text-decoration: none;
 
   &:hover,
   &:focus,
   &:focus-within {
     color: #ffffff;
     border-bottom: 1px solid #fff;
+    text-decoration: none;
   }
 `;
 

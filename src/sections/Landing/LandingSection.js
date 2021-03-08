@@ -11,7 +11,7 @@ const LandingSection = () => {
           id="landing"
           title="Hello, I'm Maisie!"
           subtitle={[
-            "I am a Front End Developer passionate about designing and creating beautiful, functional user experiences. Currently embarking on a journey into becoming an a11y expert!",
+            "I am a Web Developer passionate about designing and creating beautiful, functional user experiences. Currently embarking on a journey into becoming an a11y expert!",
           ]}
         />
         <Socials isLightBackground />

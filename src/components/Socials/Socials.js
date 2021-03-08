@@ -10,7 +10,7 @@ const socials = [
     name: "Resume",
     icon: <DescriptionRoundedIcon fontSize="large" />,
     link:
-      "https://drive.google.com/file/d/1gNAEIvoDQxFlxJ8c7akVdgkvcbNlo_me/view?usp=sharing",
+      "https://drive.google.com/file/d/1lzW-0AY6Z00bF2EMUWDno65QADqqzby8/view?usp=sharing",
   },
   {
     name: "LinkedIn",
@@ -29,16 +29,15 @@ const Socials = (props) => {
     <Wrapper>
       {socials.map(({ name, link, icon }, i) => (
         <>
-          <SocialBlock tabIndex={0}>
-            <div
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="socials-item"
-              key={i}
-            >
-              {icon}
-            </div>
+          <SocialBlock
+            tabIndex={0}
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="socials-item"
+            key={i}
+          >
+            {icon}
             <Label isLightBackground={props.isLightBackground}>{name}</Label>
           </SocialBlock>
         </>
